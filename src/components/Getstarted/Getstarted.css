@@ -1,0 +1,17 @@
+.signup-form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.signup-btn{
+    background-color: transparent!important;
+    border: 2px solid #2393df;
+    color: #2393df!important;
+    font-weight: 500;
+}
+.signup-btn:hover{
+    border: 2px solid #2393df;
+    background-color: rgba(135, 206, 250, 0.247)!important;
+}

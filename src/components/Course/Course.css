@@ -1,0 +1,24 @@
+.course-img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.course-item{
+    
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.course-item:hover{
+    background-color: rgba(211, 211, 211, 0.226);
+}
+.course-text{
+    width: 100%;
+}
+.course-text h4{
+    color: #2393df;
+}

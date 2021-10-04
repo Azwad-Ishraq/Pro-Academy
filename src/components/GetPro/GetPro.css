@@ -1,0 +1,17 @@
+.getpro-container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-content: center;
+}
+.btn-pro{
+    background-color: #2393df!important;
+    border: none;
+}

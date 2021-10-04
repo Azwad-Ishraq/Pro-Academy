@@ -1,0 +1,27 @@
+footer{
+    background-color: #1f1d28;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    
+}
+.social-item img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.social-item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
