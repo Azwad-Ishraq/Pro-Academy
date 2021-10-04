@@ -5,6 +5,7 @@ import './Jobs.css'
 const Jobs = () => {
     const [jobs, setJobs] = useState([])
     useEffect(() => {
+        // fetching data from local public folder
         fetch('./jobs.JSON')
             .then(res => res.json())
             .then(data => setJobs(data))

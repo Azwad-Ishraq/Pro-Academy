@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+## Bullet Points
+1. This is a demo react website where you can buy course and find jobs as a developer
+2. It is a single page application
+3. Bootstrap and react are used in this project.
 
 ### `npm start`
 

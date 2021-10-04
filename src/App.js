@@ -1,13 +1,9 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Header from './components/Header/Header';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Courses from './components/Courses/Courses';
 import Homecourses from './components/Homecourses/Homecourses';
-import Navsection from './components/Navsection/Navsection';
-import Routelinks from './components/Routelinks/Routelinks';
 import Getstarted from './components/Getstarted/Getstarted';
 import GetPro from './components/GetPro/GetPro';
 import Jobs from './components/Jobs/Jobs';
@@ -19,38 +15,44 @@ function App() {
   return (
     <div className="App">
       
-      {/* <Courses></Courses> */}
+      
      
         <BrowserRouter>
         
           <Switch>
           
           <Route exact path='/'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
           <Homecourses></Homecourses>
+
           <Footer></Footer>
 
           </Route>
 
-          <Route exact path='/home'>
+          <Route  path='/home'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
           <Homecourses></Homecourses>
           <Footer></Footer>
           </Route>
 
           <Route path='/courses'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
             <Courses></Courses>
             <Footer></Footer>
           </Route>
 
           <Route path='/signup'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
             <Getstarted></Getstarted>
             <Footer></Footer>
           </Route>
 
           <Route path='/pro'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
             <GetPro></GetPro>
             <Footer></Footer>
@@ -58,6 +60,7 @@ function App() {
 
 
           <Route path='/jobs'>
+            {/* The Fixcompos contains header routlinks and navbar */}
           <Fixcompos></Fixcompos>
             <Jobs></Jobs>
             <Footer></Footer>

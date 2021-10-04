@@ -10,7 +10,7 @@ const Navsection = () => {
   }
     return (
       
-      
+      // bootstrap navbar
         <Navbar style={{backgroundColor:'#1f1d28',color:'white'}} expand="lg">
   <Container>
     <Navbar.Brand className='nav-header' style={{color:'white'}} href="#home">ProAcademy</Navbar.Brand>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Course.css'
 
 const Course = (props) => {
+    // Distructuring to access all the props inside props.course
     const {name,Price,length,img} = props.course
     return (
         <div className='course-item'>
