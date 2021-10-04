@@ -1,10 +1,13 @@
 import React from 'react';
+import './Notfound.css'
+import notfoundImg from '../../notfound.svg'
 
 const Notfound = () => {
     return (
-        <div style={{textAlign: 'center'}}>
-            <h1>Error 404</h1>
-            <h1>Page Not Found</h1>
+        <div className = 'notfound-container' style={{textAlign: 'center'}}>
+            <h1>Oops, 404 Error!!!</h1>
+            <h2>Page Not Found</h2>
+            <img src={notfoundImg} alt=""/>
         </div>
     );
 };

@@ -14,46 +14,46 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      
-      
-     
-        <BrowserRouter>
-        
-          <Switch>
-          
+
+
+
+      <BrowserRouter>
+
+        <Switch>
+
           <Route exact path='/'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
-          <Homecourses></Homecourses>
+            <Fixcompos></Fixcompos>
+            <Homecourses></Homecourses>
 
-          <Footer></Footer>
+            <Footer></Footer>
 
           </Route>
 
-          <Route  path='/home'>
+          <Route path='/home'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
-          <Homecourses></Homecourses>
-          <Footer></Footer>
+            <Fixcompos></Fixcompos>
+            <Homecourses></Homecourses>
+            <Footer></Footer>
           </Route>
 
           <Route path='/courses'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
+            <Fixcompos></Fixcompos>
             <Courses></Courses>
             <Footer></Footer>
           </Route>
 
           <Route path='/signup'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
+            <Fixcompos></Fixcompos>
             <Getstarted></Getstarted>
             <Footer></Footer>
           </Route>
 
           <Route path='/pro'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
+            <Fixcompos></Fixcompos>
             <GetPro></GetPro>
             <Footer></Footer>
           </Route>
@@ -61,7 +61,7 @@ function App() {
 
           <Route path='/jobs'>
             {/* The Fixcompos contains header routlinks and navbar */}
-          <Fixcompos></Fixcompos>
+            <Fixcompos></Fixcompos>
             <Jobs></Jobs>
             <Footer></Footer>
           </Route>
@@ -69,10 +69,10 @@ function App() {
           <Route path='*'>
             <Notfound></Notfound>
           </Route>
-          </Switch>
+        </Switch>
 
-        </BrowserRouter>
-      
+      </BrowserRouter>
+
     </div>
   );
 }

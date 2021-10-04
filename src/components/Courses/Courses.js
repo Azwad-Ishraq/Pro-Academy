@@ -4,13 +4,13 @@ import './Courses.css'
 
 const Courses = () => {
     // setting all the courses to "Courses" array
-    const [courses,setCourses] = useState([])
-    useEffect(()=>{
+    const [courses, setCourses] = useState([])
+    useEffect(() => {
         // fetching data from local public folder
         fetch('./data.JSON')
-        .then(res => res.json())
-        .then(data => setCourses(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
     return (
         <div className='course-container'>
             {

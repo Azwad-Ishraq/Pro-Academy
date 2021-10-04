@@ -7,8 +7,8 @@ const Fixcompos = () => {
     return (
         <div>
             <Navsection></Navsection>
-        <Header></Header>
-        <Routelinks></Routelinks>
+            <Header></Header>
+            <Routelinks></Routelinks>
         </div>
     );
 };
